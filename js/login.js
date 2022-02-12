@@ -4,7 +4,7 @@ document.getElementById('submit-button').addEventListener('click', function(){
     const passwordFiled = document.getElementById('password-filed')
     const userPassword = passwordFiled.value ;
 
-    if( userEmail == 'sontan@baap.com' && userPassword == 'secret'){
+    if( userEmail == 'sontan.baap@gmail.com' && userPassword == 'secret'){
        window.location.href = 'banking.html'
     }  
  })
